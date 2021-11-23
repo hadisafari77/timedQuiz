@@ -1,0 +1,82 @@
+/* quiz area layout */
+#quizarea {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+
+/* text center */
+
+.text-cener {
+
+    font-size: 25px;
+
+}
+
+.score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.score-table {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#quiz-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-title {
+    margin-top: 30px;
+}
+
+.clearscores {
+    margin-top: 20px;
+}
+
+
+/* Footer for score.HTMl  */
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+/* Footer for index.HTMl  */
+#footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+/* hiding elements */
+.hide {
+    display: none;
+}
