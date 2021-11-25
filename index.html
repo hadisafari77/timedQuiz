@@ -11,14 +11,11 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Internal CSS Link -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-
 </head>
 
 <body>
     <!-- Page container layout -->
     <div class="container-fluid">
-
-
         <!-- View High Scores Page -->
         <div class="score text-primary"><a href="highscores.html">View Highscores</a></div>
         <!-- Time Functionality -->
@@ -60,15 +57,12 @@
 
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                    <button type="button" class="btn btn-outline-primary">Primary</button>
+                    <button id="submitBtn" type="button" class="btn btn-outline-primary">Submit</button>
                 </div>
 
-                <input type="text" class="form-control" aria-label="Default"
+                <input id="scoreInput" type="text" class="form-control" aria-label="Default"
                     aria-describedby="inputGroup-sizing-default">
-
-
             </div>
-
         </div>
 
         <div id="feedback" class="feedback hide"></div>
