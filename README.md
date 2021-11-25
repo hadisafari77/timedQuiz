@@ -2,17 +2,13 @@
 
 A responsive Coding Quiz.
 
-Site GIf
+ <h2> Timed Quiz Preview </h2>
 
 https://user-images.githubusercontent.com/79026810/143452686-20bf2f7c-516d-4db8-a61b-b21e41eec989.mov
 
  
 <hr>
- 
- <h2> Timed Quiz Preview </h2>
- 
-https://user-images.githubusercontent.com/79026810/141594344-38342131-4231-4ddc-a250-6b6c84555107.mov
- 
+
 <h2> Technologies Used </h2>
 <hr>
 <ul> 
